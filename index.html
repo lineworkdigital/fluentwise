@@ -3,10 +3,218 @@
 <head>
     <meta charset="UTF-8">
     <title>Fluentwise - Learn Spanish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Nunito Sans", sans-serif;
+            background-color: rgb(248, 243, 233);
+            color: rgb(27, 27, 27);
+        }     
+        h1 {
+            font-size: 4.2em;
+            font-weight: 100;
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            font-size: 2.4em;
+            font-weight: 500;
+         }
+
+         h3 {
+            font-size: 1.4em;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+         }
+
+        p   {
+            letter-spacing: 0.1em;
+        }
+
+        ButtonColor {
+            color: rgb(21, 176, 107);
+            font-weight: 900;
+        }
+
+         ul {
+            font-size: 1.2rem;
+            line-height: 3em;
+            list-style: none;
+             color: rgb(80, 80, 80);
+            
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+
+            
+            /*display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: left;
+            gap: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+         */
+           }
+
+        
+
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 600px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+
+        }
+
+        .hero img {
+           width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero_text {
+            position: absolute;
+            width: 100%;
+            height: 100%;  
+            top: 50%;
+            left: 50%;
+            color: white;
+            transform: translate(-50%, -50%); /* Center the text */
+            text-align: center;
+            align-content: center;
+            background: rgba(52, 27, 0, 0.75); /* Optional dark overlay */
+          }
+
+        
+
+        .main_box {
+            display: flex;
+            flex-wrap: wrap;
+    
+        }
+
+        .box {
+            flex: 1 1 500px;
+            text-align: left;
+            max-width: 800px;
+            padding-top: 50px;
+            padding-bottom: 100px;
+            p {
+                color: rgb(80, 80, 80);
+            }
+            
+        }
+
+        .img_container {
+            height: 300px;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            img {
+                height: auto;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+             }
+        }
+
+       
+
+
+
+        @media (max-width: 800px){
+            .box {
+                flex: 1 1 100%;
+            }
+        }
+
+    </style>
 </head>
 <body>
-    <p>Fluentwise</p>
-    <p>Spanish learning app.</p>
-    <p>Download soon on Android and iOS.</p>
-    <p>&copy; 2025 Linework Digital Ltd. All rights reserved.</p>
+    <div style="height: 100px; align-content: center; padding-left: 20px; padding-right: 20px; max-width: 800px;   margin: 0 auto;">
+        <p><strong>Fluentwise</strong> - Travel with Confidence</p>
+    </div>
+    <div class="hero">
+        <img src="img/hero.jpg">
+        <div class="hero_text">
+            <h1 style="line-height: 0;">Learn Spanish</h1>
+            <p>Your fastest and easiest way to learn Spanish</p>
+        </div>
+    </div>
+    <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>Download soon on <ButtonColor>Android</ButtonColor> and <ButtonColor>iOS</ButtonColor>.</p>
+        <br>
+        <br>
+        <br>
+        <h2>5 Good Reasons to learn Spanish</h2>
+         <div class="main_box">
+            
+            <div class="box">
+                <div class="img_container">
+                    <img src="img/image_2.jpg" alt="Spanish beach">
+                </div>
+                <h3>Meet new People and connect with a Unique Culture.</h3>
+                <p>Not understanding the local language can make you feel overwhelmed when you travel. Learning Spanish will make it easier to connect with people and create lasting relationships.</p>
+            </div>
+            <br>
+            <div class="box">
+                <div class="img_container">
+                    <img src="img/image_1.jpg" alt="Spanish beach">
+                </div>
+                <h3>Visit the World's most Beautiful Places.</h3>
+                <p>It's no secret that Spanish-speaking countries have some of the most stunning beaches and scenery in the world. Learn Spanish and make your adventures unforgetable.</p>
+            </div>
+            <br>
+            <div class="box">
+                <div class="img_container">
+                    <img src="img/image_3.jpg" alt="Spanish beach">
+                </div>
+                <h3>Impress your family and friends.</h3>
+                <p>Imagine ordering your meal in perfect Spanish. Now watch your family and friends look at you with admiration and a hint of envy.</p>
+            </div>
+            <br>
+            <div class="box">
+                <div class="img_container">
+                    <img src="img/image_4.jpg" alt="Spanish beach">
+                </div>
+                <h3>Advance your career and Earn More.</h3>
+                <p>Spanish is 4th most spoken language in the world with native speakers in over 20 countries. Learning Spanish will help you tap into a global market and improve your career prospects.</p>
+            </div>
+            <br>
+            <div class="box">
+                <div class="img_container">
+                    <img src="img/image_5.jpg" alt="Spanish beach">
+                </div>
+                <h3>Keep your Brain Healthy.</h3>
+                <p>You've heard the old saying, "Use it or lose it". Learning a new langauge is like strength training for your brain. It will improve your memory, concentration and your cognitive skills.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h2>Kindly fill out the short Survey below.</h2>
+        <br>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBlc9wAHBc51qQ4YMTa46z8_fmhUA-Wo06wP6wgxIuF29tEQ/viewform?embedded=true" width="700" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <p>&copy; 2025 Linework Digital Ltd. All rights reserved.</p>
+    </div>
 </body>
+</html>
