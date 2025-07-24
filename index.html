@@ -3,158 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Fluentwise - Learn Spanish</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: "Nunito Sans", sans-serif;
-            background-color: rgb(248, 243, 233);
-            color: rgb(27, 27, 27);
-        }     
-        h1 {
-            font-size: 4.2em;
-            font-weight: 100;
-            letter-spacing: -0.03em;
-        }
 
-        h2 {
-            font-size: 2.4em;
-            font-weight: 500;
-         }
+    <link rel="stylesheet" href="style.css">
 
-         h3 {
-            font-size: 1.4em;
-            font-weight: 700;
-            letter-spacing: 0.05em;
-         }
-
-        p   {
-            letter-spacing: 0.1em;
-            line-height: 1.3em;
-        }
-
-        ButtonColor {
-            color: rgb(21, 176, 107);
-            font-weight: 900;
-        }
-
-         ul {
-            font-size: 1.2rem;
-            line-height: 3em;
-            list-style: none;
-             color: rgb(80, 80, 80);
-            
-        }
-
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding-left: 20px;
-            padding-right: 20px;
-            text-align: center;
-
-            
-            /*display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: left;
-            gap: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
-         */
-           }
-
-        
-
-        .hero {
-            position: relative;
-            width: 100%;
-            height: 600px; 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-
-        }
-
-        .hero img {
-           width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .hero_text {
-            position: absolute;
-            width: 100%;
-            height: 100%;  
-            top: 50%;
-            left: 50%;
-            color: white;
-            transform: translate(-50%, -50%); /* Center the text */
-            text-align: center;
-            align-content: center;
-            background: rgba(52, 27, 0, 0.75); /* Optional dark overlay */
-          }
-
-        
-
-        .main_box {
-            display: flex;
-            flex-wrap: wrap;
-    
-        }
-
-        .box {
-            flex: 1 1 500px;
-            text-align: left;
-            max-width: 800px;
-            padding-top: 50px;
-            padding-bottom: 100px;
-            p {
-                color: rgb(80, 80, 80);
-            }
-            
-        }
-
-        .img_container {
-            height: 300px;
-            width: 100%;
-            overflow: hidden;
-            border-radius: 10px;
-            margin-bottom: 40px;
-            img {
-                height: auto;
-                width: 100%;
-                object-fit: cover;
-                border-radius: 10px;
-             }
-        }
-
-       
-
-
-
-        @media (max-width: 800px){
-            .box {
-                flex: 1 1 100%;
-            }
-        }
-
-    </style>
 </head>
 <body>
     <div  style="height: 100px; align-content: center; padding-left: 20px; padding-right: 20px; max-width: 800px;   margin: 0 auto; ">
-        <p><strong>Fluentwise</strong></p>
+        <p><strong>Fluentwise</strong> <thin>Spanish</thin></p>
     </div>
     <div class="hero">
         <img src="img/hero.jpg">
         <div class="hero_text">
             <h1 style="line-height: 0;">Travel with Confidence</h1>
-            <p>The Fast and Easy Way to Learn Spanish</p>
+            <p>Spanish is spoken in over 20 countries with over 500 million speakers globally.<br>Learn one of the most popular languages and open doors into an exciting world.</p>
+            <br>
+            <button>Coming Soon</button>
         </div>
     </div>
     <div class="container">
@@ -163,7 +30,7 @@
         <br>
         <br>
         <br>
-        <p>Download soon on <ButtonColor>Android</ButtonColor> and <ButtonColor>iOS</ButtonColor>.</p>
+        <p>Download soon on <ColoredText>Android</ColoredText> and <ColoredText>iOS</ColoredText>.</p>
         <br>
         <br>
         <br>
@@ -198,8 +65,9 @@
                 <div class="img_container">
                     <img src="img/image_4.jpg" alt="Spanish beach">
                 </div>
-                <h3>Advance Your Career and Earn More.</h3>
-                <p>Spanish is 4th most spoken language in the world with native speakers in over 20 countries. Learning Spanish will open doors to a global market and improves your chances of earning more in your carreer.</p>
+                <h3>Improve Your Career and Earn More.</h3>
+                <p>In a competitive market learning Spanish will give you an edge. Americans who speak Spanish as a second language earn 5 - 20 percent more. And if you're an entrepreneur, then you could earn yourself a fortune.</p>
+                
             </div>
             <br>
             <div class="box">
@@ -212,7 +80,7 @@
         </div>
         <br>
         <br>
-        <h2>We're still working on this app,<br>so kindly fill out this short Survey below so we can help you reach your Spanish goals.</h2>
+        <h2>We're still working on this app,<br>so kindly fill out this short Survey below so we can help you reach your goals.</h2>
         <br>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBlc9wAHBc51qQ4YMTa46z8_fmhUA-Wo06wP6wgxIuF29tEQ/viewform?embedded=true" width="700" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         <p>&copy; 2025 Linework Digital Ltd. All rights reserved.</p>
