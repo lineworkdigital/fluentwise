@@ -2,6 +2,10 @@
     --primary-color: rgb(45, 158, 101);
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -11,26 +15,55 @@ body {
     color: rgb(27, 27, 27);
 }
 
+
 h1 {
-    font-size: 4.2em;
+    font-size: 4em;
     font-weight: 100;
     letter-spacing: -0.03em;
 }
 
 h2 {
-    font-size: 2.4em;
+    font-size: 2.8em;
     font-weight: 500;
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 2.2em;
     font-weight: 700;
     letter-spacing: 0.05em;
 }
 
 p {
+    font-size: 1.6em;
     letter-spacing: 0.1em;
     line-height: 1.3em;
+}
+
+@media (min-width: 1024px) {
+
+    h1 {
+        font-size: 4.2em;
+        font-weight: 100;
+        letter-spacing: -0.03em;
+    }
+
+    h2 {
+        font-size: 2.4em;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 1.4em;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+    }
+
+    p {
+        font-size: 1em;
+        letter-spacing: 0.1em;
+        line-height: 1.3em;
+    }
+    
 }
 
 thin {
@@ -38,15 +71,32 @@ thin {
 }
 
 button {
+    font-size: 1.6em;
     color: white;
     background-color: var(--primary-color);
     border-radius: 10px;
-    height: 40px;
+    height: 60px;
     padding-left: 20px;
     padding-right: 20px;
     outline: 0;
     border: none;
 }
+
+@media (min-width: 1024px) {
+    button {
+        font-size: 1em;
+        color: white;
+        background-color: var(--primary-color);
+        border-radius: 10px;
+        height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        outline: 0;
+        border: none;
+    }
+}
+
+
 
 button:hover {
     color: white;
@@ -67,24 +117,22 @@ ul {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 88%;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-
-
-    /*display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: left;
-            gap: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
-         */
 }
 
-
+@media (min-width: 1024px) {
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+}
 
 .hero {
     position: relative;
@@ -144,8 +192,6 @@ ul {
     transform: translateY(0);
 }
 
-
-
 .img_container {
     height: 300px;
     width: 100%;
@@ -165,8 +211,4 @@ ul {
 
 
 
-@media (max-width: 800px) {
-    .box {
-        flex: 1 1 100%;
-    }
-}
+ 
