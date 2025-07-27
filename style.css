@@ -142,7 +142,7 @@ ul {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-
+    background-color: #713C2B;
 }
 
 .hero img {
@@ -162,7 +162,6 @@ ul {
     /* Center the text */
     text-align: center;
     align-content: center;
-    background: rgba(52, 27, 0, 0.75);
     /* Optional dark overlay */
 }
 
