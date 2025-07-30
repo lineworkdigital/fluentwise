@@ -39,6 +39,12 @@ p {
     line-height: 1.3em;
 }
 
+a {
+    color: var(--primary-color);
+    font-weight: 900;
+    text-decoration: none;
+}
+
 @media (min-width: 880px) {
 
     h1 {
