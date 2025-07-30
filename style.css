@@ -39,7 +39,7 @@ p {
     line-height: 1.3em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 880px) {
 
     h1 {
         font-size: 4.2em;
@@ -82,7 +82,7 @@ button {
     border: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 880px) {
     button {
         font-size: 1em;
         color: white;
@@ -129,7 +129,7 @@ ul {
     text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 880px) {
     .container {
         max-width: 600px;
         margin: 0 auto;
