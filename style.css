@@ -39,7 +39,7 @@ p {
     line-height: 1.3em;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
 
     h1 {
         font-size: 4.2em;
@@ -82,7 +82,7 @@ button {
     border: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     button {
         font-size: 1em;
         color: white;
@@ -108,6 +108,11 @@ ColoredText {
     font-weight: 900;
 }
 
+.lightText {
+    color: rgb(140, 140, 140);
+    font-weight: 700;
+}
+
 ul {
     font-size: 1.2rem;
     line-height: 3em;
@@ -124,7 +129,7 @@ ul {
     text-align: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     .container {
         max-width: 600px;
         margin: 0 auto;
