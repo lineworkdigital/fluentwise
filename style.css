@@ -79,8 +79,8 @@ thin {
 
 button {
     font-size: 1.6em;
-    color: white;
-    background-color: var(--primary-color);
+    color: black;
+    background-color: white;
     border-radius: 10px;
     height: 60px;
     padding-left: 20px;
@@ -92,8 +92,8 @@ button {
 @media (min-width: 880px) {
     button {
         font-size: 1em;
-        color: white;
-        background-color: var(--primary-color);
+        color: black;
+        background-color: white;
         border-radius: 10px;
         height: 40px;
         padding-left: 20px;
@@ -106,8 +106,8 @@ button {
 
 
 button:hover {
-    color: white;
-    background-color: var(--primary-color);
+    color: black;
+    background-color: white;
 }
 
 ColoredText {
@@ -170,7 +170,7 @@ ul {
     top: 50%;
     left: 50%;
     color: white;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -50%);
     /* Center the text */
     text-align: center;
     align-content: center;
