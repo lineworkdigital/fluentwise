@@ -87,21 +87,11 @@ ul {
 }
 
 .container {
-    max-width: 95%;
+    max-width: 650px;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     text-align: center;
-}
-
-@media (min-width: 650px) {
-    .container {
-        max-width: 650px;
-        margin: 0 auto;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-    }
 }
 
 .paragraph {
@@ -114,9 +104,10 @@ ul {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    gap: 10px;
     max-width: 800px;
     margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
     background-color: var(--primary-color);
     padding-bottom: 100px;
     padding-top: 50px;
@@ -174,8 +165,6 @@ ul {
         grid-column: 1/2;
         margin-top: 0;
     }
-
-    
 }
 
 .main_box {
