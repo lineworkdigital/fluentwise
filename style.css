@@ -38,7 +38,7 @@ p {
     font-weight: 500;
     letter-spacing: 0.1em;
     line-height: 1.5em;
-    color: rgb(120, 120, 120);
+    color: rgb(100, 100, 100);
 }
 
 a {
@@ -111,25 +111,20 @@ ul {
 }
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
     background-color: var(--primary-color);
     padding-bottom: 100px;
     padding-top: 50px;
 }
 
 .hero img {
-    width: 360px;
+    width: 100%;
     object-fit: cover;
-}
-
-.hero_text {
-    color: white;
-    text-align: center;
-    align-content: center;
 }
 
 .main_box {
