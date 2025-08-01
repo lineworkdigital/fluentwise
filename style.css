@@ -1,5 +1,6 @@
 :root {
     --primary-color: rgb(45, 158, 101);
+    --accent-color: rgb(236, 142, 84);
 }
 
 html {
@@ -70,6 +71,11 @@ button:hover {
 
 ColoredText {
     color: var(--primary-color);
+    font-weight: 900;
+}
+
+ColoredTextAccent {
+    color: var(--accent-color);
     font-weight: 900;
 }
 
@@ -201,7 +207,7 @@ ul {
         max-height: 300px;
         width: 100%;
         object-fit: cover;
-        border-radius: 10px;
+        border-radius: 40px;
     }
 }
 
