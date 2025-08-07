@@ -218,10 +218,11 @@ ul {
 }
 
 video {
+    border: 10px solid #1f1f1f;
     border-radius: 40px;
     width: 100%;
     height: auto;
-    max-width: 600px;
+    max-width: 360px;
 }
 
 
