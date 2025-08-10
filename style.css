@@ -1,0 +1,233 @@
+:root {
+    --primary-color: rgb(45, 158, 103);
+    --accent-color: rgb(236, 142, 84);
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #F8F7F6;
+    color: rgb(27, 27, 27);
+}
+
+
+h1 {
+    font-size: 4.2em;
+    font-weight: 100;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    font-size: 2.4em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    color: rgb(100, 100, 100);
+}
+
+Strong {
+    font-weight: 900;
+    color: black;
+}
+
+a {
+    color: var(--primary-color);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+thin {
+    font-weight: 100;
+}
+
+button {
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: 0;
+    border: none;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+ColoredText {
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+ColoredTextAccent {
+    color: var(--accent-color);
+    font-weight: 900;
+}
+
+.lightText {
+    color: rgb(140, 140, 140);
+    font-weight: 700;
+}
+
+ul {
+    font-size: 1.2rem;
+    line-height: 3em;
+    list-style: none;
+    color: rgb(80, 80, 80);
+
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.paragraph {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: var(--primary-color);
+    padding-bottom: 100px;
+    padding-top: 50px;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+.hero img {
+    grid-row: 1/2; grid-column: 2/3;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero h1 {
+    align-self:baseline; 
+    color: white; 
+    grid-row: 1/2; 
+    grid-column: 1/2;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.hero .paragraph {
+    line-height: 1.5em; 
+    color: white;
+    grid-row: 2/3; 
+    grid-column: 1/3;
+    margin-top: 10px;
+}
+
+.hero p{
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .hero{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .hero img {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .hero h1 {
+        grid-row: 2/3; 
+        grid-column: 1/2;
+        text-align: center;
+    }
+
+    .hero .paragraph {
+        grid-row: 3/4; 
+        grid-column: 1/2;
+        margin-top: 0;
+    }
+}
+
+.main_box {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    text-align: left;
+    max-width: 600px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    opacity: 0;
+    transform:translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    will-change: opacity, transform;
+}
+
+.box.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.img_container {
+    height: auto;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    img {
+        height: auto;
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 40px;
+    }
+}
+
+video {
+    border: 10px solid #1f1f1f;
+    border-radius: 40px;
+    width: 92%;
+    height: auto;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+
+
+
+
+ 
