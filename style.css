@@ -193,7 +193,7 @@ ul {
     max-width: 1600px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 100px;
+    padding-top: 120px;
 
  }
 
@@ -204,7 +204,7 @@ ul {
     text-align: left;
     max-width: 1600px;
     margin-top: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 220px;
     opacity: 0;
     transform:translateY(100px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
