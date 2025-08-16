@@ -6,6 +6,7 @@
     --bg: rgb(245, 243, 235);
     --black: rgb(20, 20, 20);
     --grey-light: rgb(135, 135, 135);
+    
 }
 
 html {
@@ -107,6 +108,52 @@ ul {
 
 }
 
+.paragraph {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* ------------------------------------------------------------------ */
+/* Container */
+/* ------------------------------------------------------------------ */
+
+.main_container {
+    max-width: 1600px;
+    padding-top: 150px;
+    padding-bottom: 180px;
+    padding-left: 50px; 
+    padding-right: 50px;
+    align-content: center;
+}
+
+.main_container_topbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main_container_hero {
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.main_container_5_minutes_a_day {
+    background-color: var(--bg);
+}
+
+.main_container_benefits {
+    padding-bottom: 0px;
+}
+
+.main_container_testimonials {
+    background-color: var(--bg);
+}
+
+.main_container_cta {
+    background-color: var(--primary-color);
+    padding-bottom: 40px;
+}
+
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -115,23 +162,51 @@ ul {
     text-align: center;
 }
 
-.paragraph {
-    max-width: 500px;
-    text-align: center;
-    margin: 0 auto;
+/* Phone */
+
+@media (max-width: 500px) {
+    .main_container {
+        padding-top: 70px;
+        padding-bottom: 100px;
+        padding-left: 25px; 
+        padding-right: 25px;
+     }
+
+     .main_container_topbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .main_container_hero {
+        padding-top: 25px;
+        padding-bottom: 100px;
+    }
+
+    .main_container_benefits {
+    padding-bottom: 20px;
 }
+
+    .main_container_cta {
+     padding-bottom: 25px;
+}
+}
+
+
+/* Tablet */
+
+@media (max-width: 850px) {
+    
+
+}
+
+
 
 .hero {
     display: grid;
     grid-template-columns: 55% 40%;
     gap: 5%;
     grid-template-rows: 50% 50%;
-    max-width: 1600px;
     margin: 0 auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 150px;
-    padding-top: 50px;
     text-align: center;
     align-content: center;
     align-self: center;
@@ -147,7 +222,6 @@ ul {
 
 .hero h1 {
     text-align: center;
-    margin-top: 80px;
     color: var(--black);
 }
 
@@ -163,39 +237,32 @@ ul {
     color: var(--grey-light);
 }
 
-@media (max-width: 800px) {
+/* Hero Phone */
+
+@media (max-width: 500px) {
     .hero{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
     }
 
     .hero img {
         grid-row: 1/2;
         grid-column: 1/2;
-        
+     }
+
+    .hero_text {
+        grid-row: 2/3;
+        grid-column: 1/2;
     }
 
-    .hero h1 {
-        grid-row: 2/3; 
-        grid-column: 1/2;
+    .hero h1 {    
+        font-size: 3.8em;
         text-align: center;
     }
 
-    .hero .paragraph {
-        grid-row: 3/4; 
-        grid-column: 1/2;
-        margin-top: 0;
-    }
+    
 }
-
-.main_box {
-    max-width: 1600px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 120px;
-
- }
 
 .box {
     display: grid;
@@ -233,12 +300,12 @@ ul {
     max-width: 450px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .box {
         display: grid;
         grid-template-columns: 100%;
-        margin-top: 100px;
-        margin-bottom: 200px;
+        margin-top: 50px;
+        margin-bottom: 120px;
     }
     .box img {
         grid-column: 1/2;
