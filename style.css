@@ -3,7 +3,7 @@
     --primary-color-700: rgb(37, 127, 83);
     --primary-color: rgb(45, 158, 103);
     --primary-color-300: rgb(89, 209, 151);
-    --accent-color:  #f3c88f;
+    --accent-color:  #ffd49b;
     --bg: rgb(245, 243, 235);
     --black: rgb(20, 20, 20);
     --grey-light: rgb(135, 135, 135);    
@@ -267,7 +267,7 @@ video {
     grid-row: 1/2; 
     grid-column: 1/2;
     line-height: 1.5em; 
-    padding-left: 55px;
+    padding-left: 50px;
     padding-right: 50px;
     margin: auto 0;
  }
@@ -303,7 +303,8 @@ video {
         padding-right: 50px;
         margin-top: 50px;
         text-align: center;
-        
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .hero h1 {    
