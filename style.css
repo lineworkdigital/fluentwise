@@ -18,7 +18,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif;
-    background-color: #fefefe;
+    background-color: #fbfbfb;
     color: var(--black);
 }
 
@@ -152,15 +152,16 @@ video {
 }
 
 .main_container_5_minutes_a_day {
-    background-color: var(--bg);
+    padding-top: 150px;
 }
 
 .main_container_benefits {
+     background-color: var(--bg);
     padding-bottom: 0px;
 }
 
 .main_container_testimonials {
-    background-color: var(--bg);
+   padding-top: 150px;
 }
 
 .main_container_cta {
