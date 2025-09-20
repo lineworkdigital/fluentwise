@@ -6,7 +6,7 @@
     --accent-color:  #ffd49b;
     --bg: rgb(245, 243, 235);
     --black: rgb(20, 20, 20);
-    --grey-light: rgb(135, 135, 135);    
+    --grey-light: rgb(135, 135, 135);
 }
 
 html {
@@ -152,16 +152,17 @@ video {
 }
 
 .main_container_5_minutes_a_day {
+    background-color: var(--bg);
     padding-top: 150px;
 }
 
 .main_container_benefits {
-     background-color: var(--bg);
-    padding-bottom: 0px;
+     padding-bottom: 0px;
 }
 
 .main_container_testimonials {
-   padding-top: 150px;
+    background-color: var(--bg);
+    padding-top: 150px;
 }
 
 .main_container_cta {
@@ -259,13 +260,13 @@ video {
     grid-row: 1/3;  
     grid-column: 2/3;
     width: 100%;
-    height: 100%;
+    height: 720px;
     object-fit: cover; 
     margin: auto auto;
 }
 
 .hero_text {
-    grid-row: 1/2; 
+    grid-row: 1/3; 
     grid-column: 1/2;
     line-height: 1.5em; 
     padding-left: 50px;
