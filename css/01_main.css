@@ -40,6 +40,14 @@ p {
     color: var(--grey-light)
 }
 
+small {
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    color: var(--grey-light)
+}
+
 Strong {
     font-weight: 900;
     color: var(--black);
