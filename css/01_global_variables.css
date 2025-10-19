@@ -1,0 +1,12 @@
+:root {
+    --primary-color-300: #78DAAB;
+    --primary-color-700: rgb(37, 127, 83);
+    --primary-color: #2D9E6F;
+    --primary-color-light: #D7F4E6;
+    --primary-color-300: rgb(89, 209, 151);
+    --accent-color:  #FFCD9B;
+    --bg: #FEF1E4;
+    --black: rgb(20, 20, 20);
+    --white: rgb(255, 253, 250);
+    --grey-light: rgb(135, 135, 135);
+}

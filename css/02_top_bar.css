@@ -1,0 +1,20 @@
+.main_container_topbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+     .main_container_topbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Phone */
+@media (max-width: 780px) {
+     .main_container_topbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

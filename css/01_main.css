@@ -1,0 +1,158 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #fbfbfb;
+    color: var(--black);
+}
+
+
+h1 {
+    font-size: 5em;
+    font-weight: 100;
+    letter-spacing: -0.01em;
+    font-weight: 300;
+    margin-bottom: 50px;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 2.4em;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    color: var(--grey-light)
+}
+
+Strong {
+    font-weight: 900;
+    color: var(--black);
+}
+
+a {
+    color: var(--primary-color);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+thin {
+    font-weight: 300;
+    color: var(--grey-light)
+}
+
+button {
+    font-size: 1em;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: 0;
+    border: none;
+}
+
+button:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+ColoredText {
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+ColoredTextAccent {
+    color: var(--accent-color);
+    font-weight: 900;
+}
+
+.lightText {
+    color: rgb(140, 140, 140);
+    font-weight: 700;
+}
+
+ul {
+    font-size: 1.2rem;
+    line-height: 3em;
+    list-style: none;
+    color: rgb(80, 80, 80);
+
+}
+
+.paragraph {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+video {
+    border: 10px solid #1f1f1f;
+    border-radius: 40px;
+    width: 92%;
+    height: auto;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.main_container {
+    max-width: 100%;
+    padding-top: 150px;
+    padding-bottom: 180px;
+    padding-left: 50px; 
+    padding-right: 50px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+ }
+
+ .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+    .main_container {
+        padding-top: 100px;
+        padding-bottom: 140px;
+        padding-left: 25px; 
+        padding-right: 25px;
+     }
+}
+
+/* Phone */
+
+@media (max-width: 780px) {
+    .main_container {
+        padding-top: 70px;
+        padding-bottom: 100px;
+        padding-left: 25px; 
+        padding-right: 25px;
+     }
+}
