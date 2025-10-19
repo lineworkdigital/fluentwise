@@ -1,4 +1,4 @@
 .main_container_5_minutes_a_day {
-    background-color: white;
+    background-color: var(--bg);
     padding-top: 150px;
 }

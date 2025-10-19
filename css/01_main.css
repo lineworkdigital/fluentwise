@@ -7,10 +7,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif;
-    background-color: #fbfbfb;
+    background-color: var(--white);
     color: var(--black);
 }
-
 
 h1 {
     font-size: 5em;
@@ -155,4 +154,8 @@ video {
         padding-left: 25px; 
         padding-right: 25px;
      }
+
+     h1 {
+        font-size: 4em;
+    }
 }
