@@ -1,0 +1,9 @@
+.no_ai_img {
+    width: 100%;
+    max-width: 512px;
+    margin-bottom: 40px;
+}
+
+.no_ai_logo {
+    max-width: 128px;
+}
