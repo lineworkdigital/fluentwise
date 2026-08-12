@@ -16,21 +16,24 @@ h1 {
     font-weight: 100;
     letter-spacing: -0.01em;
     font-weight: 300;
+    line-height: 1;
     margin-bottom: 50px;
-    line-height: 1em;
+    
 }
 
 h1_2 {
     font-size: 3em;
     letter-spacing: -0.01em;
     font-weight: 500;
+    line-height: 1;
     margin-bottom: 50px;
-    line-height: 1em;
+
 }
 
 h2 {
     font-size: 2em;
     font-weight: 400;
+
 }
 
 h3 {
@@ -39,6 +42,14 @@ h3 {
     letter-spacing: 0.05em;
     margin-bottom: 30px;
 }
+
+h4 {
+    font-size: 1em;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+}
+
 
 p {
     font-size: 1.1em;
