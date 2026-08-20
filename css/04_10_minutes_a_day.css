@@ -1,4 +1,6 @@
 .main_container_5_minutes_a_day {
+    text-align: center;
     background-color: var(--bg);
-    padding-top: 150px;
+    padding-top: var(--spacing-9);
+    padding-bottom: var(--spacing-9);
 }

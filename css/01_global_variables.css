@@ -1,5 +1,5 @@
 :root {
-    --black: rgb(20, 20, 20);
+    --black: rgb(25, 26, 29);
     --white: rgb(255, 253, 250);
     --grey-light: rgb(99, 99, 99);
     --bg: #faf4ed;
@@ -9,6 +9,17 @@
     --primary-color-light: #D7F4E6;
     --primary-color-300: rgb(89, 209, 151);
     --accent-color:  #FFCD9B;
-    
-    
+    --spacing-1: 12px;
+    --spacing-2: 14px;
+    --spacing-3: 16px;
+    --spacing-4: 20px;
+    --spacing-5: 24px;
+    --spacing-6: 32px;
+    --spacing-7: 48px;
+    --spacing-8: 80px;
+    --spacing-9: 144px;
+    --spacing-10: 272px;
+    --spacing-11: 528px;
+    --spacing-12: 768px;
+    --spacing-13: 1024px;
 }

@@ -1,18 +1,14 @@
 .main_container_cta {
     background-color: var(--primary-color);
-    padding-bottom: 40px;
-}
-
-/* Tablet */
-@media (max-width: 900px) {
-    .main_container_cta {
-        padding-bottom: 25px;
-    }
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: var(--spacing-9);
+    padding-bottom: 0;
 }
 
 /* Phone */
 @media (max-width: 780px) {
-    .main_container_cta {
-        padding-bottom: 25px;
-    }
+
 }
