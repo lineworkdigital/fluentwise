@@ -3,4 +3,6 @@
     background-color: var(--white);
     padding-top: var(--spacing-9);
     padding-bottom: var(--spacing-9);
+    padding-left: var(--spacing-5);
+    padding-right: var(--spacing-5);
 }

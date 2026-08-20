@@ -1,6 +1,9 @@
 .benefits_container{
+    background-color: var(--bg);
     padding-top: var(--spacing-9);
     padding-bottom: var(--spacing-9);
+    padding-left: var(--spacing-5);
+    padding-right: var(--spacing-5);
 }
 
 .box {
@@ -43,17 +46,18 @@
     .box {
         display: grid;
         grid-template-columns: 100%;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: var(--spacing-9);
     }
     .box img {
         grid-column: 1/2;
         grid-row: 1/2;
         width: 100%;
+        margin-bottom: var(--spacing-7);
     }
     .box_text {
         grid-column: 1/2;
         grid-row: 2/3;
+        margin-left: 0;
     }
 
 }
