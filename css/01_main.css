@@ -27,7 +27,7 @@ body, p, h1, h2, h3 {
 }
 
 img {
-    margin-bottom: 0px;
+    margin: 0;
 }
 
 html {
@@ -94,6 +94,7 @@ a {
 
 button {
     font-size: 1em;
+    letter-spacing: 0.1em;
     color: white;
     background-color: var(--primary-color);
     border-radius: 30px;
