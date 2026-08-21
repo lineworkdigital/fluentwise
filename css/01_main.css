@@ -61,6 +61,7 @@ h2 {
 h3 {
     font-size: 1.4em;
     letter-spacing: 0.08em;
+    line-height: 1.3em;
     font-weight: 900;
     margin-bottom: var(--spacing-6);
 }
@@ -159,6 +160,9 @@ video {
 /* Phone */
 
 @media (max-width: 780px) {
-    .main_container {
-     }
+
+    h1 {
+        font-size: 3.2em;
+    }
+
 }
