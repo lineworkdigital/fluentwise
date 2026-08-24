@@ -45,6 +45,7 @@
     object-fit: cover;
     width: 100%;
     height: var(--spacing-10);
+    border-radius: var(--spacing-1);
 }
 
  
