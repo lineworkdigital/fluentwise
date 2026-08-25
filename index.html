@@ -12,6 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="css/01_global_variables.css">
     <link rel="stylesheet" href="css/01_main.css">
     <link rel="stylesheet" href="css/02_top_bar.css">
@@ -21,6 +27,9 @@
     <link rel="stylesheet" href="css/06_testimonials.css">
     <link rel="stylesheet" href="css/07_no_ai.css">
     <link rel="stylesheet" href="css/08_cta.css">
+
+    
+
 </head>
 <body>
     <!--/////////////////////////////////////////-->
@@ -75,54 +84,56 @@
     <div class="main_container ">
         <div class="benefits_container">
             <div style="align-items: center; align-self: center; align-content: center; text-align: center;">
-                <h2 style="margin-bottom: var(--spacing-9);">Why should you learn Spanish?</h2>
+                <h2 style="margin-bottom: var(--spacing-8);">Why should you learn Spanish?</h2>
             </div>
-            <div class="box">
-                <img src="img/image_1.jpg" alt="Spanish beach">
-                <div>
-                    <h3>Travel the world with ease</h3>
-                    <p>Spanish is spoken all over the continents. From South America, North America, Europe and Africa. Learn Spanish and explore over 20 countries with ease.</p>    
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/image_1.jpg" alt="Spanish beach">
+                        <div>
+                            <h3>Travel the world with ease</h3>
+                            <p>Spanish is spoken all over the continents. From South America, North America, Europe and Africa. Learn Spanish and explore over 20 countries with ease.</p>    
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/image_3.jpg" alt="Spanish beach">
+                        <div>
+                            <h3>Make friends on your adventures</h3>
+                            <p>Not understanding the local language can make you feel overwhelmed and isolated. Learning Spanish will make it easier for you to make new friends and create lasting relationships.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/image_4.jpg" alt="Spanish beach">
+                        <div>
+                            <h3>Advance your career & earn more</h3>
+                            <p>In today's competitive market, learning Spanish will give you an edge. Americans who speak Spanish as their second language earn 5-20% more. And for entrepreneurs, it opens doors to a growing and profitable market.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/image_impress.jpg" alt="Spanish beach">
+                        <div>
+                            <h3>Impress your family & friends</h3>
+                            <p>Imagine ordering your meal in fluent Spanish. Watch as your family & friends look at you with admiration and maybe a hint of envy.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/image_5.jpg" alt="Spanish beach">
+                        <div>
+                            <h3>Keep your brain healthy</h3>
+                            <p>You've heard the old saying, "Use it or lose it". Learning a new langauge is like going to the gym for your brain. It'll improve your memory, concentration and keep your brain healthy.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                       <img src="img/image_beach.jpg" alt="Spanish beach">
+                        <div>
+                            <h3>Escape to a sunny place</h3>
+                            <p>It's no secret that Spanish-speaking countries have some of the best scenery in the world. Tired of the stress, traffic and noise? Escape this summer and experience amazing food and endless sunshine.</p>
+                        </div> 
+                    </div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="box reverse">
-                <img src="img/image_3.jpg" alt="Spanish beach">
-                <div>
-                    <h3>Make friends on your adventures</h3>
-                    <p>Not understanding the local language can make you feel overwhelmed and isolated. Learning Spanish will make it easier for you to make new friends and create lasting relationships.</p>
-                </div>
-            </div>
-            <div class="box">
-                <img src="img/image_4.jpg" alt="Spanish beach">
-                <div>
-                    <h3>Advance your career & earn more</h3>
-                    <p>In today's competitive market, learning Spanish will give you an edge. Americans who speak Spanish as their second language earn 5-20% more. And for entrepreneurs, it opens doors to a growing and profitable market.</p>
-                </div>
-            </div>
-            <div class="box reverse">
-                <img src="img/image_impress.jpg" alt="Spanish beach">
-                <div>
-                    <h3>Impress your family & friends</h3>
-                    <p>Imagine ordering your meal in fluent Spanish. Watch as your family & friends look at you with admiration and maybe a hint of envy.</p>
-                </div>
-            </div>
-            <div class="box">
-                <img src="img/image_5.jpg" alt="Spanish beach">
-                <div>
-                    <h3>Keep your brain healthy</h3>
-                    <p>You've heard the old saying, "Use it or lose it". Learning a new langauge is like going to the gym for your brain. It'll improve your memory, concentration and keep your brain healthy.</p>
-                </div>
-            </div>
-            <div class="box reverse" style="margin-bottom: 0;">
-                <img src="img/image_beach.jpg" alt="Spanish beach">
-                <div class="box_text">
-                    <h3>Escape to a sunny place</h3>
-                    <p>It's no secret that Spanish-speaking countries have some of the best scenery in the world. Tired of the stress, traffic and noise? Escape this summer and experience amazing food and endless sunshine.</p>
-                </div>
-            </div> 
-
         </div>
-
-           
     </div>
     <!--/////////////////////////////////////////-->
     <!-- TESTIMONIALS -->
@@ -153,7 +164,7 @@
             <img class="no_ai_img" src="img/artist.webp">
             <h2>Made by humans</h2>
             <div class="no_ai_text">
-                <p>Our work is hand made by developers, artists and writers. We do not use generative artificial intellgence (AI) to create any of our work.</p>
+                <p>Our work is hand made by developers, artists and writers. We do not use generative artificial intellgence (AI).</p>
             </div>
         </div>   
     </div>
@@ -171,6 +182,17 @@
     <!--/////////////////////////////////////////-->
     <!-- END -->
     <!--/////////////////////////////////////////-->
-    <script src="slide.js"></script>
+    <script src="js/slide.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+
 </body>
 </html>
