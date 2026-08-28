@@ -15,11 +15,11 @@
     width: 100%;
      max-width: var(--spacing-11);
      margin-bottom: var(--spacing-7);
-     border-radius: var(--spacing-1);
+     border-radius: var(--spacing-4);
 }
 
 .no_ai_text {
-    max-width: var(--spacing-11);
+    max-width: var(--spacing-10-5);
     text-align: center;
     margin: 0 auto;
 }

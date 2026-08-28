@@ -1,4 +1,4 @@
-const faders = document.querySelectorAll('.box');
+const faders = document.querySelectorAll('.swiper');
 
 const appearOptions = {
     threshold: 0.2,
