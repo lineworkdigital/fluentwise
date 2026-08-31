@@ -48,14 +48,14 @@ h1 {
     font-weight: 100;
     letter-spacing: 0.0001em;
     font-weight: 500;
-    margin-bottom: var(--spacing-7);
+    margin-bottom: var(--size-8-48);
 }
 
 h2 {
     font-size: 2em;
     letter-spacing: 0.0001em;
     font-weight: 700;
-    margin-bottom: var(--spacing-7);
+    margin-bottom: var(--size-8-48);
 }
 
 h3 {
@@ -63,7 +63,7 @@ h3 {
     letter-spacing: 0.08em;
     line-height: 1.3em;
     font-weight: 900;
-    margin-bottom: var(--spacing-6);
+    margin-bottom: var(--size-7-32);
 }
 
 
@@ -99,9 +99,9 @@ button {
     color: white;
     background-color: var(--primary-color);
     border-radius: 30px;
-    height: var(--spacing-7);
-    padding-left: var(--spacing-5);
-    padding-right: var(--spacing-5);
+    height: var(--size-8-48);
+    padding-left: var(--size-6-24);
+    padding-right: var(--size-6-24);
     outline: 0;
     border: none;
 }
@@ -135,17 +135,17 @@ ul {
 }
 
 .paragraph {
-    max-width: 500px;
+    max-width: var(--size-15-512);
     text-align: center;
     margin: 0 auto;
 }
 
 video {
     border: 10px solid #1f1f1f;
-    border-radius: 40px;
+    border-radius: var(--size-7-32);
     width: 92%;
     height: auto;
-    max-width: 360px;
+    max-width: var(--size-14-384);
     margin: 0 auto;
 }
 
@@ -159,7 +159,7 @@ video {
 
 /* Phone */
 
-@media (max-width: 780px) {
+@media (max-width: var(--size-16-768)) {
 
     h1 {
         font-size: 3.2em;
