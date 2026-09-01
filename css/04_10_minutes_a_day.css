@@ -1,8 +1,8 @@
 .main_container_5_minutes_a_day {
     text-align: center;
     background-color: var(--bg);
-    padding-top: var(--size-11-128);
-    padding-bottom: var(--size-11-128);
+    padding-top: var(--size-12-192);
+    padding-bottom: var(--size-12-192);
     padding-left: var(--size-6-24);
     padding-right: var(--size-6-24);
 }
