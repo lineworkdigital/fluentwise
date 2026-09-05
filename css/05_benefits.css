@@ -69,6 +69,10 @@
         display: grid;
         grid-template-columns: 100%;
         text-align: center;
-    }     
+    }
+    
+    .swiper-slide h3 {
+    margin-top: 0;
+    }
 
 }
