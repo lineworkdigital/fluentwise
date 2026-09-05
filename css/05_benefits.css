@@ -35,7 +35,7 @@
     grid-template-columns: 45% 55%;
     gap: var(--size-10-96);
     text-align: left;
-    align-items: center;
+    align-items: top;
     direction: ltr;
 }
 
@@ -48,8 +48,11 @@
 
 
 .swiper-slide p {
-    margin-bottom: var(--size-8-48);
     max-width: var(--size-15-512);
+}
+
+.swiper-slide h3 {
+    margin-top: var(--size-10-96);
 }
 
  
