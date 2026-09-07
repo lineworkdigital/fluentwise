@@ -41,6 +41,11 @@
     padding-left: 0px;
     align-items: center;
     align-content: center;
+    
+}
+
+.logo p {
+    font-family: "Nunito Sans", sans-serif;
 }
 
 .hero_text {
