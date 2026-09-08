@@ -11,7 +11,7 @@
 .swiper{
     width: 100%;
     height: auto;
-    margin-bottom: var(--size-11-128);
+    margin-bottom: var(--size-10-96);
     padding: 0;
     opacity: 0;
     transform:translateY(100px);
@@ -67,6 +67,7 @@
 @media (max-width: 768px) {
 
     .swiper {
+        margin-bottom: var(--size-10-96);
         height: auto;
         gap: 0;
         align-self: center;
