@@ -11,11 +11,8 @@
 .swiper{
     width: 100%;
     height: auto;
-    padding-bottom: var(--size-11-128);
-    --swiper-pagination-color: var(--primary-color);
-    --swiper-pagination-bullet-inactive-color: var(--black);
-    --swiper-pagination-bullet-inactive-opacity: 0.2;
-    --swiper-pagination-bullet-horizontal-gap: var(--size-4-16);
+    margin-bottom: var(--size-11-128);
+    padding: 0;
     opacity: 0;
     transform:translateY(100px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -28,12 +25,10 @@
 }
 
 .swiper-slide {
-    height: var(--size-13-256-5);
     padding-left: var(--size-7-32);
     padding-right: var(--size-7-32);
     display: grid;
-    grid-template-columns: 45% 55%;
-    gap: var(--size-10-96);
+    grid-template-columns: 50% 50%;
     text-align: left;
     align-items: top;
     direction: ltr;
@@ -46,33 +41,61 @@
     border-radius: var(--size-4-16);
 }
 
+.swiper-text {
+    margin-left: var(--size-9-64);
+}
 
 .swiper-slide p {
-    max-width: var(--size-15-512);
-}
+    max-width: 100%;
+ }
 
 .swiper-slide h3 {
     margin-top: var(--size-10-96);
+     
+}
+
+.swiper-pagination {
+    position: relative !important;
+    --swiper-pagination-color: var(--primary-color);
+    --swiper-pagination-bullet-inactive-color: var(--black);
+    --swiper-pagination-bullet-inactive-opacity: 0.2;
+    --swiper-pagination-bullet-horizontal-gap: var(--size-4-16);
 }
 
  
 /* Phone */
-@media (max-width: 780px) {
+@media (max-width: 768px) {
 
     .swiper {
         height: auto;
-        padding-bottom: 40px;
+        gap: 0;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
     }
 
     .swiper-slide{
         height: auto;
         display: grid;
         grid-template-columns: 100%;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .swiper-text {
+        padding-top: var(--size-9-64);
+        margin-left: 0;
+        align-content: center;
+        align-self: center;
+        align-items: center;
         text-align: center;
     }
     
     .swiper-slide h3 {
-    margin-top: 0;
+        margin-top: 0;
     }
 
 }
