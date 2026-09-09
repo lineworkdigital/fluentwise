@@ -57,6 +57,7 @@ h2 {
     font-family: "Nunito Sans", sans-serif;
     font-size: 2.5rem;
     letter-spacing: 0.0001rem;
+    line-height: 3rem;
     font-weight: 800;
     margin-bottom: var(--size-8-48);
 }
