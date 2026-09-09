@@ -12,8 +12,7 @@
 }
 
 .no_ai_img {
-    width: 100%;
-     max-width: var(--size-15-512);
+     max-width: var(--size-11-128);
      margin-bottom: var(--size-8-48);
      border-radius: var(--size-5-20);
 }
