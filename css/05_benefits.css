@@ -42,11 +42,12 @@
 }
 
 .swiper-text {
-    margin-left: var(--size-9-64);
+    margin-left: var(--size-10-96);
 }
 
 .swiper-slide p {
-    max-width: 100%;
+    max-width: var(--size-15-512);
+    
  }
 
 .swiper-slide h3 {

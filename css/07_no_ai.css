@@ -18,7 +18,7 @@
 }
 
 .no_ai_text {
-    max-width: var(--size-14-384);
+    max-width: var(--size-15-512);
     text-align: center;
     margin: 0 auto;
 }
