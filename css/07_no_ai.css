@@ -1,8 +1,8 @@
 .no_ai_container {
     display: flex;
     flex-direction: row;
-    padding-top: var(--size-11-128);
-    padding-bottom: var(--size-11-128);
+    padding-top: var(--size-9-64);
+    padding-bottom: var(--size-9-64);
     padding-left: var(--size-6-24);
     padding-right: var(--size-6-24);
     margin: 0 auto;
@@ -10,10 +10,11 @@
     align-self: center;
     justify-content: center;
     text-align: center;
+    background-color: var(--bg);
 }
 
 .no_ai_img {
-     max-width: var(--size-10-96);
+     max-width: var(--size-8-48);
 }
 
 .no_ai_text {
