@@ -11,7 +11,7 @@
     max-width: var(--size-16-768);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
     column-gap: var(--size-10-96);
     row-gap: var(--size-8-48);
  }
