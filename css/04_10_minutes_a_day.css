@@ -1,8 +1,14 @@
 .main_container_5_minutes_a_day {
     text-align: center;
     background-color: var(--white);
-    padding-top: var(--size-12-192);
-    padding-bottom: var(--size-12-192);
-    padding-left: var(--size-6-24);
-    padding-right: var(--size-6-24);
+    padding-top: var(--size-11);
+    padding-bottom: var(--size-11);
+    padding-left: var(--size-6);
+    padding-right: var(--size-6);
+}
+
+.main_container_5_minutes_a_day img {
+    width: var(--size-15);
+    border-radius: var(--size-1);
+    margin-bottom: var(--size-9);
 }

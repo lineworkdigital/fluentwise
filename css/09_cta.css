@@ -4,10 +4,10 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    padding-top: var(--size-12-192);
+    padding-top: var(--size-12);
     padding-bottom: 0;
-    padding-left: var(--size-6-24);
-    padding-right: var(--size-6-24);
+    padding-left: var(--size-6);
+    padding-right: var(--size-6);
 }
 
 /* Phone */
