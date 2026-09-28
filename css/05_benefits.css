@@ -28,7 +28,7 @@
     padding-left: var(--size-8);
     padding-right: var(--size-8);
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     text-align: left;
     align-items: top;
     direction: ltr;
