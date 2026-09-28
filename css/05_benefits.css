@@ -38,7 +38,7 @@
     height: var(--size-14);
     width: 100%;
     object-fit: cover;
-    border-radius: var(--size-1);
+    border-radius: var(--img-border-radius);
 }
 
 .swiper-text {

@@ -9,6 +9,6 @@
 
 .main_container_5_minutes_a_day img {
     width: var(--size-15);
-    border-radius: var(--size-1);
+    border-radius: var(--img-border-radius);
     margin-bottom: var(--size-9);
 }
