@@ -64,7 +64,7 @@
     height:  100%;
     height: var(--size-16);
     max-height: var(--size-16);
-    object-fit: cover; 
+     object-fit: cover; 
     margin: auto auto;
     align-self: center;
     align-items: center;
