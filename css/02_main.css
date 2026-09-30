@@ -169,10 +169,15 @@ video {
 @media (max-width: 768px) {
 
    h1 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
     letter-spacing: 0.0001rem;
     font-weight: 600;
      
 }
+
+    h2 {
+        font-size: 2.2rem;
+        margin-bottom: var(--size-8);
+    }
 
 }

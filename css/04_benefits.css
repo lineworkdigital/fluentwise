@@ -82,6 +82,11 @@
 /* Phone */
 @media (max-width: 768px) {
 
+    .benefits_container{
+        padding-top: var(--size-10);
+        padding-bottom: var(--size-10);
+    }
+
     .swiper {
         margin-bottom: var(--size-10);
         height: auto;

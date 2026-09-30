@@ -99,8 +99,8 @@
 
     .hero_img {
         width: 100%;
-        height: var(--size-13);
-        max-height: var(--size-13);
+        height: var(--size-14);
+        max-height: var(--size-14);
         object-fit: cover;
     }
 
