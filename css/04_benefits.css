@@ -2,8 +2,8 @@
     background-color: var(--bg);
     padding-top: var(--size-11);
     padding-bottom: var(--size-11);
-    padding-left: var(--size-6);
-    padding-right: var(--size-6);
+    padding-left: var(--size-8);
+    padding-right: var(--size-8);
     text-align: start;
     align-items: start;
     align-self: start;
@@ -17,7 +17,6 @@
 .swiper{
     width: 100%;
     height: auto;
-    max-width: var(--size-19);
     margin-bottom: var(--size-10);
     opacity: 0;
     align-items: start;
@@ -35,23 +34,23 @@
 }
 
 .swiper-slide {
-    display: grid;
-    grid-template-columns: 45% 55%;
+    display: flex;
+    flex-direction: row;
     align-items: top;
-      
+    direction: ltr;
 }
 
 .swiper-slide img {
-    height: var(--size-14);
     width: 100%;
-    object-fit: cover;
+    height: auto;
     border-radius: var(--img-border-radius);
+    object-fit: cover;
 }
 
 .swiper-text {
     height: var(--size-14);
     max-width: var(--size-15);
-    margin-left: var(--size-10);
+    margin-left: var(--size-11);
     padding-bottom: var(--size-8);
     align-content: center;
     align-items: center;
@@ -92,6 +91,8 @@
         align-content: start;
         padding-top: var(--size-10);
         padding-bottom: var(--size-10);
+        padding-left: var(--size-5);
+        padding-right: var(--size-5);
     }
 
     .swiper {

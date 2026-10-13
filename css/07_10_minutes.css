@@ -1,15 +1,38 @@
 .main_container_5_minutes_a_day {
     text-align: center;
-    background-color: var(--white);
-    padding-top: var(--size-11);
-    padding-bottom: var(--size-11);
-    padding-left: var(--size-6);
-    padding-right: var(--size-6);
+    background-color: var(--bg);
+    padding-bottom: var(--size-12);
+    padding-left: var(--size-8);
+    padding-right: var(--size-8);
 }
 
 .main_container_5_minutes_a_day img {
     width: 100%;
-    max-width: var(--size-15);
+    max-width: var(--size-17);
+    height: auto;
+    object-fit: cover;
+    border-radius: var(--img-border-radius);
+    margin-bottom: var(--size-10);
+}
+
+/* Phone */
+@media (max-width: 768px) {
+.main_container_5_minutes_a_day {
+    text-align: center;
+    background-color: var(--bg);
+    padding-bottom: var(--size-12);
+    padding-left: var(--size-5);
+    padding-right: var(--size-5);
+}
+
+.main_container_5_minutes_a_day img {
+    width: 100%;
+    /* max-width: var(--size-15); */
+    height: auto;
+    display: block;
+    object-fit: cover;
     border-radius: var(--img-border-radius);
     margin-bottom: var(--size-9);
+}
+
 }
