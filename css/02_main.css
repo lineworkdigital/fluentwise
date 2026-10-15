@@ -143,7 +143,7 @@ ul {
 }
 
 .paragraph {
-    max-width: var(--size-16);
+    max-width: var(--size-15);
     text-align: center;
     margin: 0 auto;
 }

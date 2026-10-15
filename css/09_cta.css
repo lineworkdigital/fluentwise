@@ -10,6 +10,10 @@
     padding-right: var(--size-6);
 }
 
+.main_container_cta h2 {
+    margin-bottom: var(--size-11);
+}
+
 /* Phone */
 @media (max-width: 768px) {
 

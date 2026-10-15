@@ -1,11 +1,16 @@
 .main_container_testimonials{
     width: 100%;
-     display: flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     padding-top: var(--size-13);
     padding-bottom: var(--size-13);
     padding-left: var(--size-6);
     padding-right: var(--size-6);
+    align-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+
 }
 
 .container_testimonials {

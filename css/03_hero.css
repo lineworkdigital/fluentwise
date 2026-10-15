@@ -3,8 +3,8 @@
     padding-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
-    background-color: var(--white);
     display: block;
+    background-color: var(--white);
 }
 
 .main_container_hero_mobile {
@@ -12,16 +12,18 @@
     padding-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
-    background-color: var(--white);
     display: none;
+    background-color: var(--white);
 }
 
 .hero {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
     height: auto;
     max-height: auto;
+}
+
+.hero h1 {
+    color: var(--black);
+
 }
 
 .left {
@@ -49,6 +51,7 @@
 }
 
 .hero_text {
+    position: absolute;
     display: flex;
     flex-direction: column;
     height: var(--size-16);
@@ -57,6 +60,8 @@
     text-align: left;
     align-self: left;
     max-width: var(--size-15);
+    background-color: var(--white);
+
  }
 
 .hero_img {
@@ -105,6 +110,7 @@
     }
 
     .hero_text {
+        position:relative;
         height: fit-content;
         text-align: center;
         align-self: center;
