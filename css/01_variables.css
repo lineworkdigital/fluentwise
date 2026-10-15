@@ -1,11 +1,11 @@
 :root {
     --black: rgb(25, 26, 29);
-    --white: #FBF6F1;
-    --grey-light: #6A625A;
-    --bg: #F7EEE3;
+    --white: #fefcf8;
+    --grey-light: #817566;
+    --bg: #FBF6F2;
     --bg-2: #EBE7E1;
     --primary-color-300: #78DAAB;
-    --primary-color-700: rgb(37, 127, 83);
+    --primary-color-700: rgb(37, 127, 50);
     --primary-color: #2D9E6F;
     --primary-color-light: #D7F4E6;
     --primary-color-300: rgb(89, 209, 151);
