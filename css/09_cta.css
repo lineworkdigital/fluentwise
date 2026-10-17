@@ -1,5 +1,5 @@
-.main_container_cta {
-    background-color: var(--black);
+.container_cta {
+    background-color: var(--color-primary-500);
     margin: 0 auto;
     align-items: center;
     align-content: center;
@@ -10,9 +10,18 @@
     padding-right: var(--size-6);
 }
 
-.main_container_cta h2 {
+.container_cta h2 {
     margin-bottom: var(--size-11);
 }
+
+.container_cta button {
+
+    background-color: var(--color-white);
+    color: var(--color-black);
+    margin-bottom: var(--size-13);
+
+}
+
 
 /* Phone */
 @media (max-width: 768px) {

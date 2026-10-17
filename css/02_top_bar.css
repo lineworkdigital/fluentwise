@@ -1,8 +1,20 @@
-.top_bar_container {
+.container_top_bar {
     height: var(--size-10);
-    background-color: var(--white);
+    background-color: var(--color-white);
     padding-left: var(--size-8);
     padding-right: var(--size-8);
-     
     align-content: center;
+}
+
+.logo {
+    display: flex;
+    height: var(--size-7);
+    padding-left: 0px;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.logo p {
+    font-family: "Nunito Sans", sans-serif;
 }

@@ -10,7 +10,7 @@
     align-self: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--bg);
+    background-color: var(--color-bg);
 }
 
 .no_ai_img {

@@ -1,7 +1,7 @@
 .benefits_container{
-    background-color: var(--bg);
-    padding-top: var(--size-11);
-    padding-bottom: var(--size-11);
+    background-color: var(--color-white);
+    padding-top: var(--size-12);
+    padding-bottom: var(--size-12);
     padding-left: var(--size-8);
     padding-right: var(--size-8);
     text-align: start;
@@ -43,7 +43,8 @@
 .swiper-slide img {
     width: 100%;
     height: auto;
-    max-width: var(--size-15);
+    height: var(--size-14);
+    max-width: var(--size-16);
     border-radius: var(--img-border-radius);
     object-fit: cover;
 }
@@ -51,7 +52,7 @@
 .swiper-text {
     height: var(--size-14);
     max-width: var(--size-15);
-    margin-left: var(--size-12);
+    margin-left: var(--size-11);
     padding-bottom: var(--size-8);
     align-content: center;
     align-items: center;
@@ -64,8 +65,8 @@
 
 .swiper-pagination {
     position: relative !important;
-    --swiper-pagination-color: var(--black);
-    --swiper-pagination-bullet-inactive-color: var(--black);
+    --swiper-pagination-color: var(--color-black);
+    --swiper-pagination-bullet-inactive-color: var(--color-black);
     --swiper-pagination-bullet-inactive-opacity: 0.3;
     --swiper-pagination-bullet-horizontal-gap: var(--size-4);
 }
