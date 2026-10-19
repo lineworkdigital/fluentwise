@@ -32,8 +32,19 @@
     align-content: self-end;
     object-fit: cover;
     height: auto;
-    border-radius: var(--border-radius-img);
-    
+    border-radius: var(--border-radius-img);  
+}
+
+.hero_img_mobile {
+    display: none;
+    width: 100%;
+    object-fit: cover; 
+    align-self: self-end;
+    align-items: self-end;
+    align-content: self-end;
+    object-fit: cover;
+    height: auto;
+    border-radius: var(--border-radius-img);  
 }
 
 /* Phone */ 
@@ -59,8 +70,12 @@
     }
 
     .hero_img {
+        display: none;
+    }
+
+    .hero_img_mobile {
+        display: block;
         width: 100%;
-        height: var(--size-14);
         object-fit: cover;
         border-radius: 0;
     }
