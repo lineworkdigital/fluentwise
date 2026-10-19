@@ -1,16 +1,16 @@
-.benefits_container{
-    background-color: var(--color-white);
-    padding-top: var(--size-12);
-    padding-bottom: var(--size-12);
+.container_benefit {
+    padding-top: var(--size-11);
+    padding-bottom: var(--size-11);
     padding-left: var(--size-8);
     padding-right: var(--size-8);
     text-align: start;
     align-items: start;
     align-self: start;
     align-content: start;
+    background-color: var(--color-bg);
 }
 
-.benefits_container h3 {
+.container_benefit h3 {
     margin-bottom: var(--size-10);
 }
 
@@ -45,7 +45,7 @@
     height: auto;
     height: var(--size-14);
     max-width: var(--size-16);
-    border-radius: var(--img-border-radius);
+    border-radius: var(--border-radius-img);
     object-fit: cover;
 }
 
@@ -85,7 +85,7 @@
 /* Phone */
 @media (max-width: 768px) {
 
-    .benefits_container{
+    .container_benefit {
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -107,7 +107,7 @@
         text-align: start;
     }
 
-    .benefits_container h3 {
+    .container_benefit h3 {
         margin-bottom: var(--size-9);
     }
 

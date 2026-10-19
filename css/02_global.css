@@ -41,7 +41,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif;
-    background-color: var(--color-bg);
+    background-color: var(--color-white);
     color: var(--color-black);
 }
 
@@ -106,11 +106,9 @@ button {
     letter-spacing: 0.1rem;
     color: white;
     background-color: var(--color-primary-500);
-    border-radius: var(--img-border-radius);
+    border-radius: var(--border-radius-button);
     height: var(--size-9);
     width: var(--size-13);
-    padding-left: var(--size-6);
-    padding-right: var(--size-6);
     outline: 0;
     border: none;
 }
@@ -141,12 +139,6 @@ ul {
     list-style: none;
     color: rgb(80, 80, 80);
 
-}
-
-.paragraph {
-    max-width: var(--size-15);
-    text-align: center;
-    margin: 0 auto;
 }
 
 video {

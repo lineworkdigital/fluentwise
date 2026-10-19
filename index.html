@@ -18,16 +18,14 @@
         href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
     />
 
-    <link rel="stylesheet" href="css/01_variables.css">
-    <link rel="stylesheet" href="css/02_main.css">
-    <link rel="stylesheet" href="css/02_top_bar.css">
-    <link rel="stylesheet" href="css/03_hero.css">
-    <link rel="stylesheet" href="css/04_benefits.css">
-    <link rel="stylesheet" href="css/05_features.css">
-    <link rel="stylesheet" href="css/06_testimonials.css">
-    <link rel="stylesheet" href="css/07_10_minutes.css">
-    <link rel="stylesheet" href="css/08_no_ai.css">
-    <link rel="stylesheet" href="css/09_cta.css">
+    <link rel="stylesheet" href="css/01_constant.css">
+    <link rel="stylesheet" href="css/02_global.css">
+    <link rel="stylesheet" href="css/03_top_bar.css">
+    <link rel="stylesheet" href="css/04_hero.css">
+    <link rel="stylesheet" href="css/05_benefit.css">
+    <link rel="stylesheet" href="css/06_feature.css">
+    <link rel="stylesheet" href="css/07_testimonial.css">
+    <link rel="stylesheet" href="css/08_cta.css">
 
 </head>
 <body>
@@ -45,12 +43,12 @@
     <!-- HERO -->
     <!--/////////////////////////////////////////-->
     <div class="container_hero_desktop">
+        <img class="hero_img" src="img/hero_landscape.webp">    
         <div class="hero_text">
-            <h1>Spanish<br>made<br>easy</h1>
-            <p style="margin-bottom: var(--size-8);">With over 500 million native speakers in over 20 countries, Spanish is one of the most useful and popular languages in the world.</p>
+            <h1>Spanish made easy</h1>
+            <p>With over 500 million native speakers, Spanish is one of the most useful and popular languages in the world.</p>
             <button>Coming soon</button>
         </div>
-        <img class="hero_img" src="img/hero_portrait.webp">    
     </div>
     <div class="container_hero_mobile">
         <img class="hero_img" src="img/hero_landscape.webp">    
@@ -63,7 +61,7 @@
     <!--/////////////////////////////////////////-->
     <!-- BENEFIT -->
     <!--/////////////////////////////////////////-->
-    <div class="benefits_container">
+    <div class="container_benefit">
         <div style="align-items: center; align-self: center; align-content: center; text-align: center;">
             <h3>Why learn Spanish?</h3>
         </div>
@@ -79,7 +77,7 @@
                 <div class="swiper-slide">
                     <img src="img/img_2.webp" alt="Spanish beach">
                     <div class="swiper-text">
-                        <h2>Meet new people</h2>
+                        <h2>Connect with the locals</h2>
                         <p>Not understanding the local language can make you feel overwhelmed and isolated. Learning Spanish will make it easier for you to make new friends and create lasting relationships.</p>
                     </div>
                 </div>
@@ -108,13 +106,13 @@
                     <img src="img/img_6.webp" alt="Spanish beach">
                     <div class="swiper-text">
                         <h2>Escape to a sunny place</h2>
-                        <p>Tired of the stress, traffic and noise? Escape this summer and experience amazing food and endless sunshine.</p>
+                        <p>It's no secret that Spanish-speaking countries have great scenery. Escape this summer and experience amazing food and endless sunshine.</p>
                     </div> 
                 </div>
                 <div class="swiper-slide">
                     <img src="img/img_7.webp" alt="Spanish culture">
                     <div class="swiper-text">
-                        <h2>Connect with a unique culture</h2>
+                        <h2>Experience a unique culture</h2>
                         <p>Latin culture is one of a kind. From the music, dance, food and soap operas, there is so much to appreciate.</p>
                     </div> 
                 </div>
@@ -123,81 +121,68 @@
         <div class="swiper-pagination"></div>
     </div>
     <!--/////////////////////////////////////////-->
-    <!-- FEATURE -->
+    <!-- Feature -->
     <!--/////////////////////////////////////////-->
-    <div class="container_features">
-        <div class="feature_grid">
-            <h3 class="bold_font" style="text-align: start;"></h3>
-            <div class="feature_left"><p class="feature_bold_text">Content</p></div>
-            <div class="feature_left"><p class="feature_bold_text">In-depth grammar lessons</p></div>
-            <div class="feature_left"><p class="feature_bold_text">Spanish short stories</p></div>
-            <div class="feature_left"><p class="feature_bold_text">Advanced text translation</p></div>
-            <div class="feature_left"><p class="feature_bold_text">Spaced repetition</p></div>
-        </div>    
-        <div class="vertical_line"></div>
-        <div class="feature_grid">
-            <h3 class="bold_font" style="text-align: start;">Fluentwise</h3>
-            <div class="feature_left"><p>Human made</p></div>
-            <div class="feature_left"><img src="img/icon_tick.svg"></div>
-            <div class="feature_left"><img src="img/icon_tick.svg"></div>
-            <div class="feature_left"><img src="img/icon_tick.svg"></div>
-            <div class="feature_left"><img src="img/icon_tick.svg"></div>
-        </div>    
-        <div class="vertical_line"></div>
-        <div class="feature_grid">
-            <h3 class="bold_font" style="text-align: start;">Other apps</h3>
-            <div class="feature_right"><p>AI generated</p></div>
-            <div class="feature_right"> <img src="img/icon_cross.svg"> </div>
-            <div class="feature_right"> <img src="img/icon_cross.svg"> </div>
-            <div class="feature_right"> <img src="img/icon_cross.svg"> </div>
-            <div class="feature_right"> <img src="img/icon_cross.svg"> </div>
-        </div>    
-               
+    <div class="main_container_feature">
+        <div class="container_feature">
+            <div class="feature_text">
+                <h2>In-depth grammar lessons</h2>
+                <div>
+                    <p>Uncover all the mysteries of Spanish grammar. </p>
+                </div>
+            </div>
+            <img src="img/grammar.webp" alt="">
+        </div>
+        <div class="feature_divider"></div>
+        <div class="container_feature reverse">
+            <div class="feature_text">
+                <h2>Learn from stories</h2>
+                <div>
+                    <p>Build strong vocabulary by listening to spanish short stories.</p>
+                </div>
+            </div>
+            <img src="img/story.webp" alt="">
+        </div>
+        <div class="feature_divider"></div>
+        <div class="container_feature">
+            <div class="feature_text">
+                <h2>Advanced text translation</h2>
+                <div>
+                    <p>Break down every sentence and get a deep understanding.</p>
+                </div>
+            </div>
+            <img src="img/translate.gif" alt="">
+        </div>
     </div>
-    <!--/////////////////////////////////////////-->
-    <!-- 10 Minutes -->
-    <!--/////////////////////////////////////////-->
-    <div class="container_5_minutes_a_day">
-        <div>
-            <h2><ColoredText>5 minutes</ColoredText> a day</h2>
-            <div class="paragraph">
-                <p>Learn Spanish using Fluentwise with just<br><ColoredText>5 minutes</ColoredText> a day.</p>
+    <!-- <div class="container_feature">
+        <div class="feature_text">
+            <h2>Made by humans</h2>
+            <div>
+                <p>All audio and artwork is human made. No ai is used.</p>
             </div>
         </div>
-        <img src="img/5_minutes.webp" alt="">
-    </div>
+        <img src="img/no_ai.webp" alt="">
+    </div> -->
     <!--/////////////////////////////////////////-->
     <!-- TESTIMONIAL -->
     <!--/////////////////////////////////////////-->
-    <div class="main_container_testimonials">
-        <div class="container_testimonials">
-            <p class="testimonials_text">"One of the best language apps."</p>
+    <div class="container_testimonial">
+        <div class="sub_container_testimonial">
+            <p class="testimonial_text">"One of the best language apps."</p>
             <img src="img/testimonial_1.png">
             <p>Steve K.</p>
         </div>
-        <div class="container_testimonials">
-            <p class="testimonials_text">"Still in early development but looks good."</p>
+        <div class="sub_container_testimonial">
+            <p class="testimonial_text">"Still in early development but looks good."</p>
             <img src="img/testimonial_2.png">
             <p>Paul E.</p>
         </div>
-        <div class="container_testimonials">
-            <p class="testimonials_text">"Helped my Spanish a lot."</p>
+        <div class="sub_container_testimonial">
+            <p class="testimonial_text">"Helped my Spanish a lot."</p>
             <img src="img/testimonial_3.png">
             <p>Laura S.</p>
         </div>
     </div>
-    
-    <!--/////////////////////////////////////////-->
-    <!-- NO AI -->
-    <!--/////////////////////////////////////////-->
-    <!-- <div class="main_container">
-        <div class="no_ai_container">
-            <img class="no_ai_img" src="img/no_ai.webp">
-            <div class="no_ai_text">
-                <p>Fluentwise does not use AI generated content.</p>
-            </div>            
-        </div>   
-    </div> -->
     <!--/////////////////////////////////////////-->
     <!-- CTA -->
     <!--/////////////////////////////////////////-->

@@ -1,36 +1,44 @@
 .container_hero_desktop {
-    display: grid;
-    grid-template-columns:  60% 40%;
-    height: var(--size-16);
-    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column; 
     padding-left: var(--size-8);
     padding-right: var(--size-8);
-}
+ }
 
 .container_hero_mobile {
     display: none;
 }
 
 .hero_text {
+    width: 100%;
     display: flex;
     flex-direction:column;
-    justify-content: center;
-    padding-bottom: var(--size-8);
-    text-align: left;
-    align-self: left;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    
+    padding-top: var(--size-11);
+    padding-bottom: var(--size-11);
+ }
+
+ .hero_text p {
     max-width: var(--size-15);
+    margin-bottom: var(--size-9);
+    align-self: center;
  }
 
 .hero_img {
+
     width: 100%;
-    height:  100%;
     object-fit: cover; 
-    margin: auto auto;
     align-self: self-end;
     align-items: self-end;
     align-content: self-end;
-    border-radius: var(--img-border-radius);
     object-fit: cover;
+    height: var(--size-16);
+    border-radius: var(--border-radius-img);
+    
 }
 
 /* Phone */ 

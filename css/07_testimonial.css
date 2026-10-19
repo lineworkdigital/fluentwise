@@ -1,29 +1,31 @@
-.main_container_testimonials{
+.container_testimonial{
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding-bottom: var(--size-13);
+    padding-top: var(--size-12);
+    padding-bottom: var(--size-12);
     padding-left: var(--size-6);
     padding-right: var(--size-6);
     align-content: center;
     align-items: center;
     align-content: center;
     align-self: center;
+    background-color: var(--color-bg);
 
 }
 
-.container_testimonials {
+.sub_container_testimonial {
     text-align: center;
     padding-left: var(--size-10);
     padding-right: var(--size-10);
 }
 
-.container_testimonials img{
+.sub_container_testimonial img{
     width: var(--size-12);
     margin-bottom: var(--size-7);
 }
 
-.testimonials_text {
+.testimonial_text {
     font-weight: 900;
     color: var(--color-black);
     font-style: italic;
