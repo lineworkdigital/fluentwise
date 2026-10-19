@@ -7,7 +7,7 @@
     align-items: start;
     align-self: start;
     align-content: start;
-    background-color: var(--color-bg);
+    background-color: var(--color-white);
 }
 
 .container_benefit h3 {

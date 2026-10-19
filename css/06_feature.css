@@ -1,11 +1,12 @@
 .main_container_feature {
-    padding-top: var(--size-12);
-    padding-bottom: var(--size-12);
+    padding-top: var(--size-11);
+    padding-bottom: var(--size-11);
     padding-left: var(--size-8);
     padding-right: var(--size-8);
     align-items: center;
     align-content: center;
     align-self: center;
+    justify-content: center;
 }
 
 .container_feature {
@@ -42,7 +43,7 @@
 }
 
 .feature_divider {
-    height: var(--size-13);
+    height: var(--size-12);
 }
 
 .reverse {
