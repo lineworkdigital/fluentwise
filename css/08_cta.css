@@ -4,7 +4,7 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    padding-top: var(--size-13);
+    padding-top: var(--size-12);
     padding-bottom: 0;
     padding-left: var(--size-6);
     padding-right: var(--size-6);
@@ -18,7 +18,7 @@
 
     background-color: var(--color-white);
     color: var(--color-black);
-    margin-bottom: var(--size-13);
+    margin-bottom: var(--size-12);
 
 }
 
