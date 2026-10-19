@@ -18,3 +18,10 @@
 .logo p {
     font-family: "Nunito Sans", sans-serif;
 }
+
+/* Phone */ 
+@media (max-width: 768px) {
+     .container_top_bar {
+        height: var(--size-10);
+    }
+}
