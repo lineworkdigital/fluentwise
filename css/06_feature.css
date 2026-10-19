@@ -23,6 +23,7 @@
     align-content: center;
     margin: 0 auto;
     max-width: var(--size-19);
+     
     /* justify-content: end; */ 
 }
 

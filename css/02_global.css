@@ -103,8 +103,8 @@ a {
 button {
     font-size: 1rem;
     letter-spacing: 0.1rem;
-    color: white;
-    background-color: var(--color-accent-500);
+    color: var(--color-white);
+    background-color: var(--color-primary-500);
     border-radius: var(--border-radius-button);
     height: var(--size-9);
     width: var(--size-13);
