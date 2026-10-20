@@ -12,7 +12,7 @@
 }
 
 .main_container_feature h3 {
-    margin-bottom: var(--size-10);
+    margin-bottom: var(--size-11);
 }
 
 .container_feature {
@@ -46,7 +46,7 @@
     height: auto;  
     object-fit: cover;
     border-radius: var(--border-radius-img);
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .feature_divider {

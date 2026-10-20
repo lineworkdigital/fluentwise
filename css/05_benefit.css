@@ -11,33 +11,23 @@
 }
 
 .container_benefit h3 {
-    margin-bottom: var(--size-10);
+    margin-bottom: var(--size-11);
 }
 
 .swiper{
     width: 100%;
     height: auto;
     margin-bottom: var(--size-10);
-    opacity: 0;
     align-items: start;
     align-self: start;
     align-content: start;
-    text-align: start;
-    transform:translateY(24px);
-    transition: opacity 1s ease-out, transform 1s ease-out;
-    will-change: opacity, transform;
-}
-
-.swiper.in-view {
-    opacity: 1;
-    transform: translateY(0);
+    text-align: start;   
 }
 
 .swiper-slide {
     display: grid;
     grid-template-columns: 45% 55%;
     align-items: top;
-    
 }
 
 .swiper-slide img {
