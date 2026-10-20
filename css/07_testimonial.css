@@ -17,7 +17,7 @@
     display: none;
     padding-top: var(--size-12);
     padding-bottom: var(--size-12);
-    background-color: var(--color-bg);
+    background-color: var(--color-white);
 }
 
 .sub_container_testimonial {
@@ -43,7 +43,6 @@
 
 /* Phone */
 @media (max-width: 768px) {
-
     .container_testimonial{
         display: none;
     }
