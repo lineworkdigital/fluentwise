@@ -58,9 +58,6 @@
     text-align: start;
 }
  
-
- 
-
 .swiper-pagination {
     position: relative !important;
     --swiper-pagination-color: var(--color-black);

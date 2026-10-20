@@ -46,7 +46,7 @@
     height: auto;  
     object-fit: cover;
     border-radius: var(--border-radius-img);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .feature_divider {

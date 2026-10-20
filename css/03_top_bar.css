@@ -1,22 +1,30 @@
 .container_top_bar {
-    height: var(--size-11);
     background-color: var(--color-white);
     padding-left: var(--size-8);
     padding-right: var(--size-8);
+    padding-top: var(--size-7);
     align-content: center;
 }
 
 .logo {
     display: flex;
     height: var(--size-7);
-    padding-left: 0px;
     align-items: center;
     align-content: center;
-    
+}
+
+.logo img {
+    width: var(--size-7);
+    margin-right: var(--size-6);
 }
 
 .logo p {
     font-family: "Nunito Sans", sans-serif;
+}
+
+.logo_bold_text {
+    font-weight: 900;
+    color: var(--color-black);
 }
 
 /* Phone */ 
