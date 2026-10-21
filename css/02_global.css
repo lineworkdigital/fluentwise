@@ -156,22 +156,22 @@ video {
 }
 
 .animate.fade-1 {
-    transition: opacity 1s ease-in, transform 1s ease-in;
+    transition: opacity 0.7s ease-in, transform 0.7s ease-in;
 }
 
 .animate.fade-1.in-view {
     opacity: 1;
-    transition-delay: 0.5s;
+    transition-delay: 0.2s;
 }
 
 .animate.fade-2 {
-    transition: opacity 1s ease-in, transform 1s ease-in;
+    transition: opacity 0.7s ease-in, transform 0.7s ease-in;
     
 }
 
 .animate.fade-2.in-view {
     opacity: 1;
-    transition-delay: 1s;
+    transition-delay: 0.7s;
 }
 
 .animate.fade-3 {
