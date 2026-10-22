@@ -27,6 +27,10 @@
 
 }
 
+.button_shadow {
+    box-shadow: 0 8px 10px #2e9168;
+}
+
 .footer {
 
     font-size: 0.8rem;
