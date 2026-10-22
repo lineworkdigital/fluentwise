@@ -8,11 +8,20 @@
     align-self: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--color-bg);
+    background-color: var(--color-primary-500);
 }
 
 .main_container_feature h3 {
     margin-bottom: var(--size-11);
+    color: var(--color-white);
+}
+
+.main_container_feature h2 {
+     color: var(--color-white);
+}
+
+.main_container_feature p {
+     color: #b6f0d8;
 }
 
 .container_feature {
@@ -45,8 +54,7 @@
     height: auto; 
     object-fit: cover;
     border-radius: var(--border-radius-img);
-    box-shadow: 0 10px 20px #e0d5c8;
-}
+ }
 
 .feature_divider {
     height: var(--size-12);
