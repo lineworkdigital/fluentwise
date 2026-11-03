@@ -8,7 +8,7 @@
     align-self: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--color-primary-500);
+    background-color: var(--color-black);
 }
 
 .main_container_feature h3 {
@@ -21,7 +21,7 @@
 }
 
 .main_container_feature p {
-     color: #b6f0d8;
+     color: #b9b8b8;
 }
 
 .container_feature {
