@@ -8,20 +8,20 @@
     align-self: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--color-black);
+    background-color: var(--color-accent-100);
 }
 
 .main_container_feature h3 {
     margin-bottom: var(--size-11);
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .main_container_feature h2 {
-     color: var(--color-white);
+     color: var(--color-black);
 }
 
 .main_container_feature p {
-     color: #b9b8b8;
+     color: #b1976a;
 }
 
 .container_feature {
