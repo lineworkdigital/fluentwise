@@ -52,6 +52,10 @@
     border-radius: var(--border-radius-img);
  }
 
+.img_filter {
+  filter: brightness(110%);  
+}
+
 .feature_divider {
     height: var(--size-12);
 }
