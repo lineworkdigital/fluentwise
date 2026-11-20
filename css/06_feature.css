@@ -43,6 +43,7 @@
 
 .feature_text p {
     text-align: start;
+    color: var(--color-light-grey-2);
 }
 
 .container_feature img {
