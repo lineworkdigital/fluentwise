@@ -20,10 +20,6 @@
      color: var(--color-black);
 }
 
-.main_container_feature p {
-     color: #977c64;
-}
-
 .container_feature {
     display: grid;
     grid-template-columns: 55% 45%;
