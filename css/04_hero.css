@@ -15,10 +15,11 @@
     align-self: start;
     align-content: start;
     align-items: start;
-    padding-top: var(--size-10);
-    /* padding-bottom: var(--size-11); */
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: var(--size-1);
     padding-left: var(--size-8);
- }
+  }
 
  .hero_text h1 {
     color: var(--color-black);
