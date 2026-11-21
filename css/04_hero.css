@@ -3,6 +3,7 @@
     flex-direction: column; 
     /* padding-left: var(--size-8);
     padding-right: var(--size-8); */
+    height: 664px;
  }
 
 
@@ -33,7 +34,7 @@
 .hero_img {
     position: absolute;
     width: 100%;
-    height: var(--size-15);
+    height: 664px;
     object-fit: cover; 
     align-self: self-end;
     align-items: self-end;
@@ -44,7 +45,7 @@
 .hero_img_gradient_filter {
     position: absolute;
     width: 50%;
-    height: var(--size-15);
+    height: 664px;
     background: linear-gradient(to right, rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
 }
 
