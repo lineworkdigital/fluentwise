@@ -3,7 +3,7 @@
     flex-direction: column; 
     /* padding-left: var(--size-8);
     padding-right: var(--size-8); */
-    height: 664px;
+    height: 624px;
  }
 
 
@@ -34,7 +34,7 @@
 .hero_img {
     position: absolute;
     width: 100%;
-    height: 664px;
+    height: 624px;
     object-fit: cover; 
     align-self: self-end;
     align-items: self-end;
@@ -45,7 +45,7 @@
 .hero_img_gradient_filter {
     position: absolute;
     width: 50%;
-    height: 664px;
+    height: 624px;
     background: linear-gradient(to right, rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
 }
 
@@ -69,6 +69,8 @@
     .container_hero {
         padding-left: 0;
         padding-right: 0;
+        height: auto;
+        background-color: var(--color-bg);
     }
     
     .hero_text {
