@@ -56,11 +56,11 @@ h1 {
 
 h2 {
     font-family: "Nunito Sans", sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     letter-spacing: 0.0001rem;
     line-height: 3.2rem;
     font-weight: 800;
-    margin-bottom: var(--size-8);
+    margin-bottom: var(--size-7);
 }
 
 h3 {
