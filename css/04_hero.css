@@ -21,14 +21,14 @@
  }
 
  .hero_text h1 {
-    color: var(--color-white);
+    color: var(--color-black);
  }
 
  .hero_text p {
     max-width: var(--size-15);
     margin-bottom: var(--size-9);
     align-self: start;
-    color: var(--color-white);
+    color: var(--color-light-grey);
  }
 
 .hero_img {
@@ -44,9 +44,9 @@
 
 .hero_img_gradient_filter {
     position: absolute;
-    width: 50%;
+    width: 40%;
     height: 624px;
-    background: linear-gradient(to right, rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    background: linear-gradient(to right, rgb(255, 255, 255, 1), rgba(255, 255, 255, 1));
 }
 
 
