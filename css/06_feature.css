@@ -84,11 +84,19 @@
         padding-bottom: var(--size-11);
         padding-left: var(--size-6);
         padding-right: var(--size-6);
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        text-align: center;
     }
 
      .container_feature {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        text-align: center;
      }
 
      .feature_text {
@@ -98,10 +106,11 @@
         align-self: center;
         align-content: center;
         padding-bottom: 0;
+        margin: 0 auto;
     }
 
     .reverse .feature_text {
-         
+         margin: 0 auto;
     }
 
     .feature_text p {
