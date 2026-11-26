@@ -26,7 +26,7 @@
 
 .swiper-slide {
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 50% 50%;
     align-items: top;
 }
 
@@ -40,7 +40,7 @@
 .swiper-text {
     height: var(--size-14);
     max-width: var(--size-15);
-    margin-left: var(--size-9);
+    margin-left: var(--size-10);
     padding-bottom: var(--size-11);
     align-content: center;
     align-items: center;
