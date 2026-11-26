@@ -17,7 +17,7 @@
 .swiper{
     width: 100%;
     height: auto;
-    margin-bottom: var(--size-3);
+    margin-bottom: var(--size-10);
     align-items: start;
     align-self: start;
     align-content: start;
