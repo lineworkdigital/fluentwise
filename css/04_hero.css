@@ -23,13 +23,15 @@
 
  .hero_text h1 {
     color: var(--color-white);
- }
+    text-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+  }
 
  .hero_text p {
     max-width: var(--size-15);
     margin-bottom: var(--size-9);
     align-self: start;
     color: var(--color-white);
+    text-shadow: 1px 2px 4px rgba(0,0,0,0.3);
  }
 
 .hero_img {
